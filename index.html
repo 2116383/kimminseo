@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="김민서" />
+    <title> Welcome to Minseo's Entertainment </title>
+    <script src="https://kit.fontawesome.com/14c3275a0b.js" crossorigin="anonymous"></script>
+</head>
+    <style>
+        {
+            font-family:"맑은 고딕",Arial,Helvetica,sans-serif;
+            line-height:150%
+        }
+        header h1{
+            display: inline;
+            font-size: 1.6em;
+            color: rgb(255, 61, 132);
+        }
+        *{
+            padding:0px;
+            margin: 0px;
+        }
+        a { text-decoration: none; color :rgb(255, 61, 132)}
+
+        nav{
+            margin: 10px;
+        }
+        nav ul{
+            list-style: none;
+            text-align: center;
+            border-top:1px solid white;
+            border-bottom : 1px solid white;
+            padding: 15px 0px;
+        }
+        nav ul li:hover{
+            background-color: rgb(255, 61, 132);
+        }
+        nav ul li a:hover{
+            color:white;
+        }
+        fieldset{
+            form
+        }
+        footer{
+            background-color: rgb(255, 61, 132);
+            color: whitesmoke;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header id="home">
+        <i class="fa-sharp fa-solid fa-microphone-lines"></i>
+        <h1> MS Entertainment</h1>
+    </header>  
+    <nav>
+    <ul>
+        <li><a href="#">ARTIST</a></li>
+        <li><a href="#">SHOP</a></li>
+        <li><a href="#">MUSIC VIDEO</a></li>
+        <li><a href="#">NOTICE</a></li>
+        <li><a href="./work1gallery.html">GALLERY</a></li>
+    </ul>
+    </nav>
+      <section>
+        <div class="content">
+        <article>
+            <div class="imglist">
+                <img src="./week02_lab-1/images/뉴진스1.jpg" alt="NewJeans" class="뉴진스1.jpg", width="225", height="300">
+                <img src="./week02_lab-1/images/르세라핌1.gif" alt="LE SSERAFIM" class="르세라핌1.jpg", width="225", height="300">
+                <img src="./week02_lab-1/images/아이브1.jpg" alt="IVE" class="아이브1.jpg", width="225", height="300">
+                <img src="./week02_lab-1/images/에스파1.jpg" alt="ASPA" class="에스파1.jpg", width="225", height="300">
+                <img src="./week02_lab-1/images/민지.jpg" alt="MINJI" class="민지.jpg", width="225", height="300">
+                <img src="./week02_lab-1/images/ive.jpg" alt="IVE" class="ive.jpg", width="225", height="300">
+            </div>
+            <article>
+                <div class="media">
+                    <h2>[BE ORIGINAL] LE SSERAFIM(르세라핌) 'ANTIFRAGILE' </h2>
+                    <iframe width="1400" height="543" src="https://www.youtube.com/embed/qORaYudQ7Zc" title="[BE ORIGINAL] LE SSERAFIM(르세라핌) 'ANTIFRAGILE' (4K)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h2>[BE ORIGINAL] NewJeans(뉴진스) 'Attention' </h2>
+                    <iframe width="1400" height="543" src="https://www.youtube.com/embed/lgfXrQUx4go" title="[BE ORIGINAL] NewJeans(뉴진스) 'Attention' (4K)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </article>
+    <form>
+        <fieldset>
+            <legend>MAIN NOTICE</legend>      
+                     MS ENT의 공개오디션이 12월 한달동안 진행됩니다. 
+            <table>
+                <tr><td>회원ID</td>
+                    <td><input type="text"></td></tr>
+                <tr><td>비밀번호</td>
+                    <td><input type="text"></td></tr>
+                <tr><td>희망 오디션 날짜</td>
+                <td><input type="date"></td></tr>
+                <tr><td>희망 오디션 시간</td>
+                <td><input type="time"></td></tr>
+            </table>
+            <input type="submit" value="제출">
+        </fieldset>
+    </form>     
+     <form name="fo" method="get">
+        <fieldset>
+            <legend>로그인</legend>
+            <label>회원ID : <input type="text" size="15" value="">
+            </label><br>
+            <label for="pass">비밀번호 : </label>
+            <input id="pass" type="password" size="15" value="">
+            <input type="submit" value="완료">
+        </fieldset>
+    </form>                     
+    <form action="#" method="get">
+        <fieldset>
+            <legend>회원가입</legend>
+            회원ID<input type="text" name="id" id=""><br>
+            비밀번호<input type="password" name="pw" id=""><br>
+            비밀번호확인<input type="password" name="pw1" id=""><br>
+            email주소<input type="email" name="email" id=""><br>
+            생일<input type="date" name="birth" id=""><br>
+            좋아하는 아티스트<input type="text" list="artist" id=""><BR>
+                            <datalist id="artist"><br>
+                             <option value="ive">
+                             <option value="aspa">
+                             <option value="lessapim">
+                             <option value="newjeans">
+                             </option>
+                            </datalist>
+            남자<input type="radio" name="gender" value="N" id="">
+            여자<input type="radio" name="gender" value="F" id=""><br>
+        <input type="submit" value="회원가입">
+        <input type="reset" value="취소">
+        </fieldset>
+       </form><header id="home">
+       </body>    
+    <footer>
+        address : 부산광역시 서구 구덕로 225 tell : 01030143437
+        <br>Copyright © MS ENT all rights Reserved</br>
+        <div class="sns">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-sharp fa-solid fa-envelope"></i>           
+        </div>
+    </footer>
+</body>
+</html>
